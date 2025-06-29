@@ -94,6 +94,7 @@ Hasło: user
 graphql
 Kopiuj
 Edytuj
+```
 task-manager/
 │
 ├── backend/
@@ -107,6 +108,7 @@ task-manager/
 │   │       │   └── tasks/   # komponenty i widoki zadań
 │   │       └── core/        # serwisy, guardy
 │   └── angular.json
+```
 📌 Autorzy
 Zaliczeniowy projekt Angular
 Dominik Pazurek, Marcin Grabania
