@@ -1,0 +1,22 @@
+<div style="max-width: 400px; margin: 100px auto; text-align: center">
+  <h2>Logowanie</h2>
+  <form (ngSubmit)="onLogin()">
+    <mat-form-field appearance="fill" style="width: 100%">
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="email" name="email" required />
+    </mat-form-field>
+    <mat-form-field appearance="fill" style="width: 100%">
+      <mat-label>Hasło</mat-label>
+      <input
+        matInput
+        [(ngModel)]="password"
+        name="password"
+        required
+        type="password"
+      />
+    </mat-form-field>
+    <button mat-raised-button color="primary" style="margin-top: 16px">
+      Zaloguj
+    </button>
+  </form>
+</div>

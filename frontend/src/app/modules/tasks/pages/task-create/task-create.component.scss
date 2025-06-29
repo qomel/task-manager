@@ -1,0 +1,21 @@
+.form-wrapper {
+  max-width: 400px;
+  margin: 48px auto;
+  padding: 24px 18px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px #0002;
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .form-wrapper {
+    margin: 20px 2vw;
+    padding: 16px 4vw;
+    border-radius: 8px;
+  }
+}

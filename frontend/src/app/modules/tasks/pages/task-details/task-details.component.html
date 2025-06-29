@@ -1,0 +1,9 @@
+<div
+  *ngIf="task"
+  style="max-width: 400px; margin: 100px auto; text-align: center"
+>
+  <h2>{{ task.title }}</h2>
+  <p>{{ task.description }}</p>
+  <p>Status: {{ task.status }}</p>
+  <button mat-raised-button color="primary" (click)="back()">Wróć</button>
+</div>
